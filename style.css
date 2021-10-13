@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #eee;
+     /* font-family: 'Oswald', sans-serif; */
+        font-family: 'Roboto', sans-serif; 
+}
+.container{
+    max-width: 1080px;
+    background-color: #7fffd4;
+    margin: 0 auto;
+    padding:15px;
+    overflow: hidden;
+
+}
+
+/* header section Start */
+
+.profile-image{
+    width: 100px;
+    height:100px;
+    float:left;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.profile-name{
+    float:left;
+    margin:20px 0 0 30px;
+}
+.profile-name h4{
+    font-weight:600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.profile-name p{
+    font-weight:light;
+    font-size: 15px;
+}
+.header-content{
+    float:right;
+    margin-top:15px;
+}
+.header-content p{
+    padding:2px;
+}
+.header-content a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.header-content a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border:2px solid #000;
+    width: 100%;
+    margin:15px auto;
+    border-bottom:none;
+}
+
+
+/* header section End */
+
+/* Main Section Start */
+
+/* personal Section start */
+
+.personal-info{
+   padding:5px 5px;
+}
+.info-title{
+    width:30%;
+    float:left;
+    color: tomato;
+}
+.info-details{
+    width:70%;
+    float:left;
+}
+strong{
+    font-size: 14px;
+}
+.line-hr{
+    border:1px solid #000;
+    width: 100%;
+    margin:15px auto;
+    border-bottom:none;
+}
+
+/* personal Section end */
+
+/* Work Section start */
+
+.work-info{
+    padding:5px 5px;
+ }
+ .work-title{
+     width:30%;
+     float:left;
+     color: tomato;
+ }
+ .time{
+     color:tomato;
+     font-size: 14px;
+     margin-bottom: 4px;
+ }
+ .details{
+     text-align: justify;
+     margin-bottom: 18px;
+ }
+ .work-details{
+     width:70%;
+     float:left;
+ }
+ .work-details ul{
+    margin-left: 15px;
+ }
+ .work-details ul li{
+    margin-bottom: 10px;
+ }
+ .skill-head h4{
+    margin-bottom: 8px;
+}
+
+/* Work Section End */
+
+
+/* Start Education section */
+ .edu-title{
+     width:30%;
+     float:left;
+     color: tomato;
+ }
+ .edu-details{
+     width:35%;
+     float:left;
+ }
+ .high-edu-details{
+     width: 35%;
+     float:right;
+ }
+
+/* End Education section */
+
+/* Footer start */
+
+.main-footer{
+    text-align: center;
+    color: black;
+}
+.main-footer a{
+    text-decoration: none;
+    color: red;
+}
+.footer-icon i{
+    padding:8PX;
+    color: #000;
+    font-size: 30px;
+}
+.footer-icon i:hover{
+    color: tomato;
+} 
+
+
+/* Footer End */
+
+/* Main Section End */
